@@ -1,0 +1,267 @@
+/*--------------------------------------
+        #Google Fonts#
+----------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/*----------------------------------
+        #Default Css#
+----------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.fixed-width {
+  max-width: 1160px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+/*-------------------------------------
+            #Header-Part#
+--------------------------------------*/
+.header-menu {
+  padding-top: 35px;
+}
+.main-header-part {
+  background-color: #2d25a0;
+  height: 677px;
+}
+.header-menu-flexible {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-left ul {
+  list-style: none;
+  padding-left: 0;
+}
+.header-menu-left ul li {
+  display: inline-block;
+}
+.header-menu-left ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 36px;
+}
+.header-menu-left ul li:last-child a {
+  margin-right: 0;
+}
+.header-menu-right-btn a {
+  display: inline-block;
+  text-decoration: none;
+  background: #e02c6d;
+  color: #fff;
+  width: 123px;
+  height: 44px;
+  text-align: center;
+  line-height: 45px;
+}
+.header-menu-right-btn a:hover {
+  transform: scale(1.3);
+  transition: transform 0.6s linear 0.1s;
+}
+
+.arrow-icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+.banner-bottom {
+  margin-top: 67px;
+}
+.banner-inner-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-left-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+.banner-left-content a {
+  display: inline-block;
+
+  text-decoration: none;
+  width: 168px;
+  background: #e02c6d;
+  color: #fff;
+  text-align: center;
+  height: 44px;
+  line-height: 40px;
+  margin-top: 8px;
+}
+.banner-right-image img {
+  width: 556px;
+  height: 438px;
+}
+.arrow-sign {
+  margin-left: 8px;
+}
+/*----------------------------------
+        #Team-Players#
+-----------------------------------*/
+.team-players {
+  margin-top: 70px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding-top: 15px;
+}
+.player-image {
+  text-align: center;
+  padding: 0 15px;
+}
+.player-image img {
+  width: 300px;
+  height: 256px;
+}
+.player-info {
+  padding: 15px;
+}
+.player-info h2 {
+  margin: 0;
+}
+.player-info p {
+  margin: 0;
+  margin-top: 10px;
+}
+/*-----------------------------------
+            //* Gallery-Part //*
+------------------------------------*/
+.gallerys-part {
+  margin-top: 100px;
+}
+.gallery-title {
+  text-align: center;
+  font-size: 40px;
+  color: #2d25a0;
+}
+.gallerys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+}
+.gallery img {
+  width: 398px;
+  height: 278px;
+}
+.container {
+  width: 1340px;
+  margin: auto;
+}
+/* ----------------------------------
+        #All-Highlights#  
+-------------------------------------*/
+.All-highlights {
+  margin-top: 150px;
+}
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlight-left-content {
+  width: 469px;
+  height: 309px;
+}
+.highlight-left-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+.highlight-left-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+.highlight-left-content a {
+  display: inline-block;
+  text-decoration: none;
+  background: #e02c6d;
+  color: #fff;
+  line-height: 43px;
+  width: 172px;
+  height: 44px;
+  text-align: center;
+}
+.highlight-right-image {
+  width: 567px;
+  height: 427px;
+}
+/*------------------------------ 
+        #Football-Career#
+-------------------------------*/
+.football-careers {
+  margin-top: 50px;
+}
+.careers {
+  background-color: #2d25a0;
+  padding: 40px 0;
+}
+.career {
+  text-align: center;
+}
+.career h3 {
+  color: #faed7b;
+  font-size: 28px;
+}
+.career p {
+  color: #a789ff;
+  font-size: 1.33333333rem;
+  line-height: 1.25;
+}
+.career a {
+  background-color: #faed7b;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px 60px;
+  margin-top: 20px;
+}
+.career a:hover {
+  background-color: rgba(253, 228, 4, 0.4);
+  color: #fff;
+  transition: 0.4s;
+}
+/*----------------------------
+        # Footer-Part #
+-----------------------------*/
+.footer-part {
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-top-image img {
+  width: 484px;
+}
+.footer-middle-social-icon {
+}
+.footer-middle-social-icon ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-middle-social-icon ul li {
+  display: inline-block;
+}
+.footer-middle-social-icon ul li a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  color: gray;
+}
+.footer-bottom p {
+  color: #000000;
+  font-weight: 400;
+}
